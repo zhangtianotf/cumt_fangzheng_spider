@@ -59,10 +59,8 @@ f.close()
 pic = Image.open('1.gif')
 pic.show()
 check_code = raw_input('验证码：')
-# username = raw_input('学号：')
-# password = raw_input('密码：')
-username = '08133554'
-password = 'zt19950202'
+username = raw_input('学号：')
+password = raw_input('密码：')
 post_data['txtUserName'] = username
 post_data['TextBox2'] = password
 post_data['txtSecretCode'] = check_code
