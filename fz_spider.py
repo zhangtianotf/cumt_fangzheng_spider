@@ -87,7 +87,8 @@ for i in range(len(list0)):
         print list0[i], list1[i], list2[i], list3[i], list4[i]
         credit_sum += float(list2[i])
         credit_mul += float(list3[i]) * float(list2[i])
-print credit_sum, credit_mul
+print '总学分：', credit_sum
+print '总学分绩点：', credit_mul
 print 'GAP：', credit_mul/credit_sum
 
 
