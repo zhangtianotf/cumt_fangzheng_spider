@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+
+"""
+需要的第三方库：requests, PIL, lxml
+"""
+
 import sys
 import re
 import requests
